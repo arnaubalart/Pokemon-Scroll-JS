@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header,
+.footer {
+    height: 25vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+.content {
+    height: 50vh;
+}
+
+.content .card img {
+    width: 40vh;
+}
+
+.button {
+    width: 10%;
+}
+
+
+/*Scroll menu*/
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    height: 100%;
+    padding: 0 3.8vh 0 0;
+}
+
+div.scrollmenu div.card {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 3.8vh 0 3.8vh 3.8vh;
+    text-decoration: none;
+}
