@@ -10,7 +10,6 @@ body {
 .header,
 .footer {
     height: 25vh;
-    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +28,7 @@ h1 {
     width: 40vh;
 }
 
-.button {
+#button {
     width: 10%;
 }
 
