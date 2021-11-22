@@ -80,11 +80,11 @@ window.onload = function() {
     var saludo = document.getElementsByClassName("saludo")[0];
     if (hora < 7 || hora > 17) {
         saludo.innerHTML = "¡Buenas noches!";
-        document.getElementById("body").style.backgroundColor = "black";
+        document.getElementById("body").style.backgroundColor = "#3E3730";
         saludo.style.color = "white";
     } else {
         saludo.innerHTML = "¡Buenos días!";
-        document.getElementById("body").style.backgroundColor = "white";
+        document.getElementById("body").style.backgroundColor = "rgb(238, 107, 47)";
         saludo.style.color = "black";
     }
     //Ejercicio 3
